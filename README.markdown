@@ -9,14 +9,15 @@
 
 # How to install
 Copy the sample .plist file into the Systems LaunchDaemons folder
-- "sudo cp activeAppTracker.plist /Library/LaunchDaemons/activeAppTracker.plist"
 
-- Adjust the /Library/LaunchDaemons/activeAppTracker.plist to match your paths for 
-	(1) the program
+* *sudo cp activeAppTracker.plist /Library/LaunchDaemons/activeAppTracker.plist*
+
+* Adjust the /Library/LaunchDaemons/activeAppTracker.plist to match your paths for  
+	(1) the program  
 	(2) the statistics file
 
-## Start it with:
-- "sudo launchctl load /Library/LaunchDaemons/activeAppTracker.plist"
+### Start it with:
+- *sudo launchctl load /Library/LaunchDaemons/activeAppTracker.plist*
 
-## Stop it with:
-- "sudo launchctl unload /Library/LaunchDaemons/activeAppTracker.plist"
+### Stop it with:
+- *sudo launchctl unload /Library/LaunchDaemons/activeAppTracker.plist*
